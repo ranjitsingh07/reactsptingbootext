@@ -1,6 +1,25 @@
+# Intellij idea files
+*.iml
+*.iws
+*.ipr
+.idea
+
+#Maven target files
+.target/
+
+#Node modules
+node/
+node_modules/
+build/
+package-lock.json
+
+
 # Compiled class file
 *.class
-
+.classpath
+.settings
+/target/
+/build/
 # Log file
 *.log
 
